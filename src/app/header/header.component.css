@@ -6,6 +6,25 @@
 }
 
 
+ul {
+    list-style: none;
+    /* Elimina los puntos de la lista desordenada */
+}
+
+li {
+    display: flex;
+    /* Utiliza flexbox para alinear verticalmente */
+    align-items: center;
+    /* Alinea verticalmente el contenido */
+    margin-bottom: 10px;
+    /* Añade espacio entre los elementos de la lista */
+    list-style-type: none;
+}
+
+.icons_contacto {
+    width: 1.1rem;
+    margin-right: 0.4rem;
+}
 
 .Caja_Header {
     display: flex;
@@ -44,9 +63,9 @@
 .Caja_Header_Titulos {
     color: #13c7c7;
     size: 10;
-    font-size: 25px;
+    font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0;
     line-height: 1.1;
     padding-left: 22px;
@@ -66,7 +85,7 @@
     padding: 0;
     width: 13rem;
     height: 13rem;
-    margin: 0 7rem;
+    margin: 1rem 7rem;
     border-color: #13c7c7;
     border-style: groove;
 
@@ -84,7 +103,7 @@
 .Caja_Informacion_Datos-Titulo {
     padding-top: 0;
     margin: 1rem 0rem;
-    font-size: 25px;
+    font-size: 22px;
     color: brown;
 }
 
@@ -100,9 +119,9 @@
 .Caja_Informacion_Datos-Info {
     padding: 1px 2px;
     margin: 6px 0;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Arial';
-    font-weight: 600;
+    font-weight: bold;
     color: dimgrey;
 }
 
