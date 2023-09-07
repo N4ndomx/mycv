@@ -1,0 +1,71 @@
+.Titulo_Caja {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+    height: 2rem;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+}
+
+body {
+    font-family: Arial;
+}
+
+.Tabla_Contenido {
+    width: 100%;
+
+    margin-top: 1.5rem;
+}
+
+.Div_espaciado {
+
+    line-height: 0.9rem;
+}
+
+.Div_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Tabla_Contenido_Letra {
+
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+.Fecha_ubi {
+    color: #13c7c7;
+    flex: 1;
+}
+
+.Logros-espaciador {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.Tabla_Contenido_Empresa {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.Tabla_Contenido_Letra-Titulo {
+    font-size: 1.7rem;
+    color: black;
+    margin: 0rem;
+}
+
+.Tabla_Contenido_Letra-Texto {
+    font-size: 20px;
+    margin: 0;
+
+}
