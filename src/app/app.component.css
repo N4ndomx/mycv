@@ -10,6 +10,21 @@
 
 }
 
+
+table {
+    border-collapse: collapse;
+    /* Combina los bordes de las celdas en una sola línea */
+    border: none;
+    /* Elimina cualquier borde en la tabla */
+}
+
+td,
+th {
+    border: none;
+    /* Elimina cualquier borde en las celdas de la tabla */
+}
+
+
 .Contenedor_Secundario {
     position: relative;
 
@@ -18,9 +33,7 @@
     align-items: center;
     justify-items: center;
 
-    border-radius: 10px;
-    border-color: black;
-    border-style: groove;
+
 }
 
 .Barra {

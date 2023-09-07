@@ -22,6 +22,8 @@ export class HeaderComponent implements OnInit {
   ubicacion: string = ""
   red_x: string = ""
   red_github: string = ""
+  red_insta: string = ""
+
 
   ngOnInit(): void {
     this.headerservice.getHeader().subscribe((data: any) => {
@@ -34,6 +36,8 @@ export class HeaderComponent implements OnInit {
       this.ubicacion = data.ubicacion
       this.red_x = data.red_social.x
       this.red_github = data.red_social.github
+      this.red_insta = data.red_social.instagram
+
       console.log(data);
       //alert(data);
     })
