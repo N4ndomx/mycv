@@ -1,1 +1,51 @@
-<h3>work-experience</h3>
+<article class="Contenedor">
+    <Section class="Titulo_Caja">
+        <h1>Experiencia Laboral</h1>
+    </Section>
+
+    <table class="Tabla_Contenido">
+        <ul *ngFor="let work of workExperience">
+
+            <div class="Div_espaciado">
+
+                <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+                    {{ work.puesto }}
+                </p>
+
+                <p class="Tabla_Contenido_Letra Tabla_Contenido_Empresa">
+                    {{ work.empresa }}
+                </p>
+            </div>
+
+            <div class="Div_flex">
+
+                <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto Fecha_ubi" style="
+            text-align: left;">
+                    {{ work.fecha_init}} | {{work.fecha_fin}}
+                </p>
+
+
+
+
+                <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto Fecha_ubi" style="
+            text-align: right;">
+                    {{ work.Ciudad }} | {{work.pais}}
+                </p>
+
+
+            </div>
+
+            <div class="Logros-espaciador">
+                <ul *ngFor="let logro of work.logros" style="list-style-type: square">
+                    <li>
+
+                        <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+                            {{ logro.logro }}
+                        </p>
+
+                    </li>
+                </ul>
+            </div>
+        </ul>
+    </table>
+</article>
