@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 //import { HeaderService } from './services/header.service';
-import { HttpClientModule } from '@angular/common/http'; // Se debe inyectar el modulo necesario para los service 
+import { HttpClientModule } from '@angular/common/http';
+import { SkillsComponent } from './skills/skills.component'; // Se debe inyectar el modulo necesario para los service 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
