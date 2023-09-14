@@ -1,0 +1,19 @@
+<article class="Contenedor">
+    <Section class="Titulo_Caja">
+        <h1>Habilidades y Competencias</h1>
+    </Section>
+
+    <div>
+        <ul *ngFor="let experiencia of experienciaLaboral">
+
+            <p id="tecno" class="Tabla_Contenido_Empresa">
+                {{ experiencia.name_skill }}
+                <progress id="tecno" class="barra_progress" max="100" value="{{experiencia.percentage}}">
+                    {{experiencia.percentage}} %</progress>
+            </p>
+
+
+        </ul>
+
+    </div>
+</article>
