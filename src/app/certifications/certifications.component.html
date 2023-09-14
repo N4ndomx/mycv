@@ -1,0 +1,37 @@
+<article class="Contenedor">
+    <Section class="Titulo_Caja">
+        <h1>Certificados</h1>
+    </Section>
+
+    <table class="Tabla_Contenido">
+        <ul *ngFor="let certificado of certificados">
+            <tr>
+                <a href="{{certificado.link_certification}}">
+
+                    <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Titulo">
+                        {{ certificado.name_certification }}
+                    </p>
+                </a>
+
+
+                <p class="Tabla_Contenido_Letra Tabla_Contenido_Letra-Titulo">
+                    {{ certificado.time_certification }} <q>
+
+                        {{certificado.year_certification}}
+                    </q>
+                </p>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <p class="Tabla_Contenido_ Letra Tabla_Contenido_Letra-Texto">
+                        {{ certificado.descripcion_certification}}
+                    </p>
+                </td>
+
+            </tr>
+
+        </ul>
+    </table>
+</article>
