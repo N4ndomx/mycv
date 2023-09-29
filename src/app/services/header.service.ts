@@ -13,7 +13,7 @@ export class HeaderService {
   constructor(
     private readonly http: HttpClient
   ) { }
-  apiURL = 'http://localhost:8080/header'
+  apiURL = 'https://node-apicv-service-n4ndomx.cloud.okteto.net/header'
 
   //http opcions
 

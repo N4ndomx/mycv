@@ -12,7 +12,7 @@ export class SkillsService {
   constructor(
     private readonly http: HttpClient
   ) { }
-  apiURL = 'http://localhost:8080/skills'
+  apiURL = 'https://node-apicv-service-n4ndomx.cloud.okteto.net/skills'
 
   //http opcions
 

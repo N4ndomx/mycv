@@ -13,7 +13,7 @@ export class WorkExperienceService {
   constructor(
     private readonly http: HttpClient
   ) { }
-  apiURL = 'http://localhost:8080/work-experience'
+  apiURL = 'https://node-apicv-service-n4ndomx.cloud.okteto.net/work-experience'
 
   //http opcions
 

@@ -13,7 +13,7 @@ export class CertificationsService {
   constructor(
     private readonly http: HttpClient
   ) { }
-  apiURL = 'http://localhost:8080/certifications'
+  apiURL = 'https://node-apicv-service-n4ndomx.cloud.okteto.net/certifications'
 
   //http opcions
 
