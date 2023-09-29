@@ -1,0 +1,65 @@
+.Contenedor_Principal {
+    width: 40%;
+    height: 50%;
+    margin: 0% 30%;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    /* Combina los bordes de las celdas en una sola línea */
+    border: none;
+    /* Elimina cualquier borde en la tabla */
+}
+
+td,
+th {
+    border: none;
+    /* Elimina cualquier borde en las celdas de la tabla */
+}
+
+
+.Contenedor_Secundario {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+.Barra {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    height: 40px;
+    background-color: darkgreen;
+
+    align-content: center;
+    align-items: center;
+}
+
+.Tabla_Contenido {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.Tabla_Contenido-Colum1 {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
